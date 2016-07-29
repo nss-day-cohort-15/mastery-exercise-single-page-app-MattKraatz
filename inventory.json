@@ -1,0 +1,58 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "GMC",
+      "model": "Warrior",
+      "year": "2000",
+      "price": "19999",
+      "color": "Yellow",
+      "purchased": false,
+      "description": "Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do."
+    },
+    {
+      "make": "Ford",
+      "model": "Fiesta",
+      "year": "2012",
+      "price": "15999",
+      "color": "Orange",
+      "purchased": false,
+      "description": "But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown."
+    },
+    {
+      "make": "Toyota",
+      "model": "Whatnow",
+      "year": "2008",
+      "price": "12999",
+      "color": "Green",
+      "purchased": true,
+      "description": "However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends."
+    },
+    {
+      "make": "Kia",
+      "model": "Soul",
+      "year": "2012",
+      "price": "9999",
+      "color": "Grey",
+      "purchased": false,
+      "description": "Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime."
+    },
+    {
+      "make": "Hyundai",
+      "model": "Altima",
+      "year": "2009",
+      "price": "11399",
+      "color": "Tomato",
+      "purchased": true,
+      "description": "Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime."
+    }
+  ]
+}
