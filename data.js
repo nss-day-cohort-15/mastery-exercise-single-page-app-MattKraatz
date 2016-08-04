@@ -1,15 +1,16 @@
 var CarLot = (function(carlot) {
   // Function to get JSON data and then call a function to build the HTML page
-  carlot.loadInventory = (function() {
+  carlot.loadInventory = function(cb) {
     var xhr = new XMLHttpRequest();
     xhr.addEventListener("load", function() {
         let data = JSON.parse(xhr.responseText).cars;
-        carlot.populatePage(data)
+        cb(data)
         carlot.activateEvents()
     })
     xhr.open("GET", "inventory.json")
     xhr.send()
-  })()
+  }
+
   // Adding a property to the global variable that will return inventory data
   carlot.getInventory = function() {
     return data;
@@ -31,3 +32,5 @@ var CarLot = (function(carlot) {
   }
   return carlot
 })(CarLot || {})
+
+CarLot.loadInventory(CarLot.populatePage)
