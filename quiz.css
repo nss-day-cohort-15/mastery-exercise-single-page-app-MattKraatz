@@ -1,0 +1,18 @@
+.card {
+  height: 300px;
+  border-width: 1px;
+  border-style: solid;
+  overflow: scroll;
+}
+
+input {
+  margin-right: 15px
+}
+
+#replacementText {
+  margin: 0 5px 5px 0;
+}
+
+.selected {
+  border-width: 8px;
+}
